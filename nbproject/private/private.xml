@@ -3,20 +3,34 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/app/home/home.html</file>
             <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/controllers/index.html</file>
             <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/config/database.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/index.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/models/index.html</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/app/navigation/navigation.service.js</file>
             <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/config/autoload.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/models/mikrokreditna_multiplikacija_model.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/models/create_database_model.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/config/user_agents.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/bower_components/style.css</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/models/database_model.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/views/home_view.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/app/navigation/navigation.controller.js</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/app/multiplikator/multiplikator.html</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/app/home/home.controller.js</file>
             <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/controllers/HomeController.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/controllers/Welcome.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/models/makrokreditna_multiplikacija_model.php</file>
-            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/config/config.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/libraries/REST_Controller.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/app/multiplikator/multiplikator.service.js</file>
             <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/index.html</file>
-            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/controllers/multiplikacijeController.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/app/formatters/decnumber.formatter.js</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/controllers/Api_Rest.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/models/index.html</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/index.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/app/multiplikator/multiplikator.controller.js</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/app/mainModule.js</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/config/user_agents.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/app/formatters/percentage.formatter.js</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/app/formatters/number.formatter.js</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/config/config.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/config/rest.php</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/application/libraries/index.html</file>
+            <file>file:/C:/xampp/htdocs/xampp/Multiplikatori/app/navigation/searchView.html</file>
         </group>
     </open-files>
 </project-private>

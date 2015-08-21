@@ -1,0 +1,79 @@
+
+<div class="large-offset-1" ng-controller="MultiplikatorController">
+
+    <h3>Kreditni multiplikator</h3>
+
+    <div>
+        <div>
+            <form class="small-5 columns">
+                <fieldset>
+                    <legend>Izračun kreditne multiplikacije</legend>
+
+                    <label>Depozit
+                        <input data-ng-model="form.depo" 
+                               decnumber-formatter 
+                               type="text" 
+                               ng-blur="calculate()"/>
+                    </label>
+                    <label>Stopa obvezene rezerve
+                        <input data-ng-model="form.rez"
+                               type="text"
+                               percentage-formatter
+                               ng-blur="calculate()"/>
+                    </label>
+                    <label>Stopa povrata depozita
+                        <input data-ng-model="form.pov" 
+                               type="text" 
+                               percentage-formatter
+                               ng-blur="calculate()" />
+                    </label>
+                    <label>Broj razdoblja
+                        <input data-ng-model="form.raz"
+                               type="text" 
+                               number-formatter
+                               ng-blur="calculate()"/>
+                    </label>
+
+                    <div class="button small" 
+                         ng-click="save()">
+                        Spremi
+                    </div>         
+                </fieldset>
+                  <alert ng-repeat="alert in alerts track by $index" 
+                         class='{{alert.type}}'
+                         type="value.type" 
+                         close="closeAlert($index)" >{{alert.msg}}</alert>
+            </form>
+        </div>
+
+        <!-- Table -->
+        <h6 ng-if='tableName !== ""'>Tablica {{tableName}}</h6>
+            <table class="small-6 columns">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Depoziti</th>
+                        <th>Rezerve</th>
+                        <th>Krediti</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="(key,value) in tableData">
+                        <td>{{key}}</td>
+                        <td>{{value.depoziti|number: 2}}</td>
+                        <td>{{value.rezerve|number: 2}}</td>
+                        <td>{{value.krediti|number: 2}}</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+        <script type="text/ng-template" id="modal.html">
+            <a class="close-reveal-modal" ng-click="cancel()">&#215;</a>
+                <label>Spremi u bazu pod imenom
+                    <input type="text" ng-model="tableName" />
+                 </label>
+            <div class="button small success" ng-click="save(tableName)">
+                Spremi
+            </div>
+        </script>
+</div>

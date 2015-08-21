@@ -1,0 +1,26 @@
+<div>
+    <table class="small-offset-2 small-8 columns">
+        <tr>
+            <th>#</th>
+            <th>Naziv</th>
+            <th>Razdoblje</th>
+            <th>Depoziti</th>
+            <th>Rezerve</th>
+            <th>Krediti</th>
+            <th>Izaberi</th>
+            <th>Obrisi</th>
+        </tr>
+        <tr ng-repeat="(key, item) in searchTable">
+            <td>{{key + 1}}</td>
+            <td>{{item.Naziv}}</td>
+            <td>{{item.Razdoblje}}</td>
+            <td>{{item.Depoziti}}</td>
+            <td>{{item.Rezerve}}</td>
+            <td>{{item.Krediti}}</td>
+            <td><a ng-click="selectType(item)">Select</a></td>
+            <td><a ng-click="delete(key, item)">Delete</a></td>
+        </tr>
+
+
+    </table>
+</div>

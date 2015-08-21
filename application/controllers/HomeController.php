@@ -13,12 +13,11 @@
  */
 class HomeController extends CI_Controller {
 
-
+    /*
+     * Main function, load view
+     */
     public function index(){
-        echo "first controller";
+        $this->load->view("home_view");
     }
-    
-    public function test(){
-        echo "this is test function";
-    }
+   
 }

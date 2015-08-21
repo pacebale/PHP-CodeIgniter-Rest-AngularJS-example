@@ -1,0 +1,21 @@
+.top-buffer{
+    margin-top:50px;
+    margin-bottom:50px;
+};
+
+.top-small{
+    margin-top:100px;
+}
+
+.animate.ng-enter, .animate.ng-leave {
+  transition: 1000ms ease-in all;
+  position: relative;
+  display: block;
+} 
+
+.animate.ng-enter.ng-enter-active, .animate.ng-leave {
+  left: 0;
+}
+.animate.ng-leave.ng-leave-active, .animate.ng-enter {
+  left: -1000px;
+}
